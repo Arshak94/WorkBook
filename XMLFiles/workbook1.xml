@@ -1,0 +1,16 @@
+<com.fipsoftware.workbook.model.WorkBook>
+    <SocialSecurity>social Security</SocialSecurity>
+    <firstName>Arshak</firstName>
+    <lastName>Tovmasyan</lastName>
+    <dateOfBirth>2017-09-23 00:16:13.623 AMT</dateOfBirth>
+    <photo>AQIDBAUGBwgJ</photo>
+    <workHistories class="list">
+        <com.fipsoftware.workbook.model.WorkHistory>
+            <companyName>fipsoft</companyName>
+            <position>Java Junior</position>
+            <salary>100000</salary>
+            <workFrom>2017-09-23 00:16:13.622 AMT</workFrom>
+            <workUntil>2017-09-23 00:16:13.622 AMT</workUntil>
+        </com.fipsoftware.workbook.model.WorkHistory>
+    </workHistories>
+</com.fipsoftware.workbook.model.WorkBook>
