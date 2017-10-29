@@ -1,0 +1,28 @@
+<com.fipsoftware.workbook.model.WorkBook>
+  <id>1</id>
+  <SocialSecurity>Socialsecurity</SocialSecurity>
+  <firstName>Arshak</firstName>
+  <lastName>Tovmasyan</lastName>
+  <dateOfBirth>2017-10-24 00:10:30.599 AMT</dateOfBirth>
+  <photo>AQIDBAU=</photo>
+  <workHistory class="list">
+    <com.fipsoftware.workbook.model.WorkHistory>
+      <id>1</id>
+      <workBookId>0</workBookId>
+      <companyName>FipSoftware</companyName>
+      <position>Java Junior</position>
+      <salary>100000</salary>
+      <workFrom>2017-10-24 00:10:30.599 AMT</workFrom>
+      <workUntil>2017-10-24 00:10:30.599 AMT</workUntil>
+    </com.fipsoftware.workbook.model.WorkHistory>
+    <com.fipsoftware.workbook.model.WorkHistory>
+      <id>2</id>
+      <workBookId>0</workBookId>
+      <companyName>FipSoftware</companyName>
+      <position>Java Developer</position>
+      <salary>100000</salary>
+      <workFrom>2017-10-24 00:10:30.599 AMT</workFrom>
+      <workUntil>2017-10-24 00:10:30.599 AMT</workUntil>
+    </com.fipsoftware.workbook.model.WorkHistory>
+  </workHistory>
+</com.fipsoftware.workbook.model.WorkBook>

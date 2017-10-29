@@ -1,5 +1,6 @@
-package com.fipsoftware.workbook.validator;
+package com.fipsoftware.workbook.service.validator;
 
+import org.springframework.stereotype.Service;
 import org.xml.sax.SAXException;
 
 import javax.xml.XMLConstants;
@@ -10,9 +11,16 @@ import javax.xml.validation.Validator;
 import java.io.File;
 import java.io.IOException;
 
-public class WorkBookValidator {
+@Service
+public class WorkBookValidatorImpl implements WorkBookValidator {
 
-    public boolean validate(String xmlFile, String schemaFile) {
+    /**
+     * Validates XML against XSD Schema
+     * @param xmlFile
+     * @param schemaFile
+     * @return
+     */
+    public boolean validateXML(String xmlFile, String schemaFile) {
         SchemaFactory schemaFactory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
         try {
             Schema schema = schemaFactory.newSchema(new File(schemaFile));
